@@ -1,11 +1,43 @@
 import React from 'react';
 
+import ProjectItem from './ProjectItem';
+import { myProjects } from './myProjects';
+
+// bootstrap
+import CardDeck from 'react-bootstrap/CardDeck';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+
 const ProjectList = () => {
   return (
-    <div>
-      <h1>List my Projects here</h1>
-      <p>Loop thrue myProjects array and create a Card for each project</p>
-    </div>
+    <Container className='text-center'>
+      <div>
+        <h1>My Projects</h1>
+      </div>
+      <Row>
+        <CardDeck>
+          {myProjects.map(proj => (
+            <ProjectItem
+              key={proj.id}
+              stackType={proj.stackType}
+              front={proj.front}
+              back={proj.back}
+              db={proj.db}
+              addlPackages={proj.addlPackages}
+              cssFWK={proj.cssFramework}
+              deployedTo={proj.deployedTo}
+              projectType={proj.projectType}
+              name={proj.name}
+              desc={proj.desc}
+              customized={proj.customized}
+              customizations={proj.customizations}
+              appUrl={proj.appUrl}
+              repoUrl={proj.repoUrl}
+            />
+          ))}
+        </CardDeck>
+      </Row>
+    </Container>
   );
 };
 
