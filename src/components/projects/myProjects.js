@@ -13,7 +13,7 @@ export const myProjects = [
     desc:
       'Repsonsive React Portfolio site built with bootstrap for navbar, cards, and modals.  ',
     deployedTo: 'Github Pages',
-    appUrl: 'https://githubfinder-ddual01.netlify.app/',
+    appUrl: 'https://ddualba.github.io/my-portfolio-2021',
     repoUrl: 'https://github.com/ddualba/my-portfolio-2021',
     customized: true,
     customizations:
