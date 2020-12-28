@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
 
+import './Navbar.css';
+
 const navbar = () => {
   return (
     <Navbar
@@ -31,9 +33,6 @@ const navbar = () => {
           </Nav.Link>
           <Nav.Link eventKey={5} as={Link} to='/about'>
             About
-          </Nav.Link>
-          <Nav.Link eventKey={6} as={Link} to='/contact'>
-            Contact
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>

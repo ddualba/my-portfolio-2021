@@ -92,7 +92,7 @@ export const myProjects = [
     projectType: 'Course',
     desc:
       'Create technicians, log and update IT issues.  Uses materialize css framework to enhance ui and provide modals.',
-    deployedTo: '',
+    deployedTo: 'Currently Undeployed',
     appUrl: '',
     repoUrl: 'https://github.com/ddualba/react-it-logger',
     customized: false,

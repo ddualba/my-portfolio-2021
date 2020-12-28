@@ -1,0 +1,157 @@
+.Landing {
+  /* height: 100vh; */
+
+  min-height: calc(100vh - 191.6px);
+  /* min-height: 100vh; */
+  /* // 88 + 72 */
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: relative;
+}
+
+/* .Landing-content {
+  margin: 0;
+} */
+/* color: beige;
+height: 100%;
+  /* padding: 40px; */
+
+.text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  color: #ffffff;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+.text-box p {
+  text-align: center;
+}
+.heading-primary {
+  text-transform: uppercase;
+  text-align: center;
+
+  backface-visibility: hidden;
+}
+.heading-primary-main {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+.heading-primary-sub {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+
+  animation: moveInRight 1s ease-out;
+}
+
+.btn-box {
+  display: flex;
+  flex: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all 0.2s;
+}
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+  background-color: #fff;
+  /* color: #777; */
+}
+
+.btn-animated {
+  animation: moveInBottom 0.5s ease-out 0.75s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes moveInLeft {
+  0% {
+    /* make item invisible */
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  80% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  80% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@media (min-width: 650px) {
+  .Landing {
+    background-position: center center;
+    min-height: calc(100vh - 149px);
+  }
+
+  .Landing-content {
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .heading-primary-main {
+    font-size: 2rem;
+  }
+  .heading-primary-sub {
+    font-size: 1rem;
+  }
+}
