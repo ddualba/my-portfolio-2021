@@ -1,0 +1,28 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin-top: 4.5rem; /* for the fixed header height */
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.7;
+  /* height: 100%; */
+
+  /* grid-template-rows: 4.5rem auto fit-content(4rem);
+  grid-template-areas:
+    'header'
+    'main'
+    'footer'; */
+}
+/* main {
+  grid-area: main;
+} */

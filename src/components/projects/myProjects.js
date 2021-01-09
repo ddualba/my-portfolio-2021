@@ -20,6 +20,26 @@ export const myProjects = [
       'Created from scratch. All functional components with hooks. React-router for component routing. '
   },
   {
+    id: 19,
+    stackType: 'React with SASS',
+    name: 'uHost Fictional Site',
+    fullstack: false,
+    front: 'React',
+    back: 'None',
+    db: 'None',
+    addlPackages: 'react-router-dom, react-transition-group',
+    cssFramework: 'Custom CSS',
+    projectType: 'Course/Custom',
+    desc:
+      'CSS3 Course project converted to a react functional component site with SASS.',
+    deployedTo: 'Github Pages',
+    appUrl: 'https://ddualba.github.io/uhost-react/#/',
+    repoUrl: 'https://github.com/ddualba/uhost-react',
+    customized: true,
+    customizations:
+      'converted static html/css site to react functional components with sass'
+  },
+  {
     id: 20,
     stackType: 'REACT',
     name: 'Github Finder',

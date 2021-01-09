@@ -6,7 +6,7 @@ import Footer from './components/layout/Footer';
 import Home from './components/pages/Home';
 import Routes from './components/routes/Routes';
 
-import './App.css';
+import './App.scss';
 
 const App = () => {
   return (

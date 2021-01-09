@@ -8,7 +8,7 @@ const navbar = () => {
   return (
     <Navbar
       collapseOnSelect
-      expand='lg'
+      expand='md'
       bg='dark'
       variant='dark'
       sticky='top'
