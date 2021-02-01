@@ -1,9 +1,7 @@
 .Landing {
   /* height: 100vh; */
-
-  min-height: calc(100vh - 191.6px);
-  /* min-height: 100vh; */
-  /* // 88 + 72 */
+  display: block;
+  min-height: calc(100vh - 209px);
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;

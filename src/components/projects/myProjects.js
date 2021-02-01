@@ -20,6 +20,26 @@ export const myProjects = [
       'Created from scratch. All functional components with hooks. React-router for component routing. '
   },
   {
+    id: 18,
+    stackType: 'Adv. CSS with SASS',
+    name: 'Natours Fictional Site',
+    fullstack: false,
+    front: 'HTML5',
+    back: 'None',
+    db: 'None',
+    addlPackages: 'node-sass, concat, postcss, npm-run-all',
+    cssFramework: 'Custom CSS with Sass',
+    projectType: 'Course',
+    desc:
+      'Advanced CSS and Sass Course project. Functional practice coding and compiling sass while working with media queries, responsive design, BEM, 7-1 Sass Architecture.',
+    deployedTo: 'Github Pages',
+    appUrl: 'https://ddualba.github.io/advcss-natours/',
+    repoUrl: 'https://github.com/ddualba/advcss-natours',
+    customized: true,
+    customizations:
+      'Expanded npm build process, installed gh-pages and deployed'
+  },
+  {
     id: 19,
     stackType: 'React with SASS',
     name: 'uHost Fictional Site',

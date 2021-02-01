@@ -24,9 +24,6 @@ const Home = () => {
   return (
     <main>
       <div className='Landing' style={{ backgroundImage: `url(${imageUrl})` }}>
-        {/* <Container className='Landing-content'>
-        <Row>
-          <Col> */}
         <div className='text-box'>
           <h1 className='heading-primary'>
             <span className='heading-primary-main'>My Developer Story</span>
@@ -54,9 +51,6 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        {/* </Col>
-        </Row>
-      </Container> */}
       </div>
     </main>
   );
