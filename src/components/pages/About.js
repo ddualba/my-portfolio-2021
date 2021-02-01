@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className='section-about'>
       <div className='bg-video'>
-        <video className='bg-video__content' autoPlay muted loop>
+        <video className='bg-video__content' autoPlay muted loop playsInline>
           <source
             src={`${process.env.PUBLIC_URL}/assets/images/white-waves.mp4`}
             type='video/mp4'
