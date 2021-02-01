@@ -1,6 +1,5 @@
 .section-about {
   position: relative;
-  display: inline-table;
   padding: 2rem;
   // min-height: calc(100vh - 141.6px);
   min-height: calc(100vh - 209px);
@@ -24,5 +23,9 @@
     width: 100%;
     object-fit: cover;
     // object-fit: cover;
+  }
+
+  @media only screen and (hover: none) {
+    display: none;
   }
 }
