@@ -4,6 +4,10 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
+import { FaRocket } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
+import { FaCodeBranch } from 'react-icons/fa';
+
 const ProjectItem = ({
   stackType,
   projectType,
@@ -82,10 +86,7 @@ const ProjectItem = ({
 
           {customized && (
             <Card.Text className='pl-2 pr-2'>
-              <i
-                className='fas fa-code-branch fa-lg'
-                style={{ color: 'green' }}
-              ></i>{' '}
+              <FaCodeBranch style={{ color: 'green' }} size='1.5em' />{' '}
               {customizations}
             </Card.Text>
           )}
@@ -97,7 +98,9 @@ const ProjectItem = ({
               target='_blank'
               className='btn btn-primary'
             >
-              <i className='fas fa-rocket'></i> Launch App
+              <span className='icon-span'>
+                <FaRocket /> Launch App
+              </span>
             </Card.Link>
           )}
 
@@ -106,7 +109,9 @@ const ProjectItem = ({
             target='_blank'
             className='btn btn-secondary'
           >
-            <i className='fab fa-github'></i> Repository
+            <span className='icon-span'>
+              <FaGithub /> Repository
+            </span>
           </Card.Link>
 
           {/* <Card.Footer className='mt-3'>

@@ -26,3 +26,12 @@ body {
 /* main {
   grid-area: main;
 } */
+
+.icon-span {
+  display: flex;
+  align-items: center;
+
+  svg {
+    margin-right: 0.25em;
+  }
+}

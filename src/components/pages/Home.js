@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { FaUserAstronaut } from 'react-icons/fa';
+import { FaProjectDiagram } from 'react-icons/fa';
 
 import './Home.scss';
 import desktopImage from './material-dark-blue-full.jpg';
@@ -38,16 +40,16 @@ const Home = () => {
           </p>
           <div className='btn-box'>
             <Link to='/projects' className='btn btn-white btn-animated'>
-              <span style={{ fontSize: '1.25rem', color: '#0F3B68' }}>
-                <i className='fas fa-project-diagram'></i>
-              </span>{' '}
-              Recent Projects
+              <span className='icon-span'>
+                <FaProjectDiagram style={{ color: '#0F3B68' }} size='1.25em' />
+                Recent Projects
+              </span>
             </Link>
             <Link to='/education' className='btn btn-white btn-animated'>
-              <span style={{ fontSize: '1.25rem', color: '#0F3B68' }}>
-                <i className='fas fa-user-astronaut'></i>
-              </span>{' '}
-              Recent Training
+              <span className='icon-span'>
+                <FaUserAstronaut style={{ color: '#0F3B68' }} size='1.25em' />
+                Recent Training
+              </span>
             </Link>
           </div>
         </div>

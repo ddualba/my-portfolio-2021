@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
 
+import { FaReact } from 'react-icons/fa';
 import './Navbar.scss';
 
 const navbar = () => {
@@ -16,7 +17,9 @@ const navbar = () => {
     >
       <Navbar.Brand>
         <Nav.Link eventKey={1} as={Link} to='/' style={{ color: 'inherit' }}>
-          <i className='fab fa-react'></i> Dar's Portfolio
+          <span className='icon-span'>
+            <FaReact /> Dar's Portfolio
+          </span>
         </Nav.Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls='responsive-navbar-nav' />

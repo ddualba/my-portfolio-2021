@@ -81,6 +81,20 @@ export const camps = [
   },
   {
     id: 7,
+    name: 'Junior to Senior Web Developer Roadmap',
+    instructor: 'Andrei Neagoie',
+    courseUrl:
+      'https://www.udemy.com/course/the-complete-junior-to-senior-web-developer-roadmap/',
+    courseThumbUrl:
+      'https://img-a.udemycdn.com/course/240x135/1650610_2673_6.jpg',
+    courseThumbnail: 'tn-jr-sr-webdev.jpg',
+    desc:
+      'Learn all the technical skills Senior Web Developers know. Master advanced and modern fundamental concepts in web development.',
+    completed: true,
+    compDate: '2/3/2021'
+  },
+  {
+    id: 8,
     name: 'Advanced CSS and Sass',
     instructor: 'Jonas Schmedtmann',
     courseUrl: 'https://www.udemy.com/course/advanced-css-and-sass/',
@@ -94,7 +108,7 @@ export const camps = [
   },
 
   {
-    id: 8,
+    id: 9,
     name: 'MERN Full Stack Guide',
     instructor: 'Maximilian Schwarzmüller',
     courseUrl:
