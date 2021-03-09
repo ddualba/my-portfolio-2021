@@ -1,13 +1,33 @@
 export const myProjects = [
   {
-    id: 1,
+    id: 2,
+    stackType: 'NODEJS / PUPPETEER',
+    name: 'Stock WebScraper',
+    fullstack: false,
+    front: '',
+    back: 'NodeJS',
+    db: 'None',
+    addlPackages: 'puppeteer',
+    cssFramework: '',
+    projectType: 'Personal',
+    desc:
+      'Node terminal app that searches several websites for stock availability, terminal notification of availability  ',
+    deployedTo: 'not deployed',
+    appUrl: '',
+    repoUrl: 'https://github.com/ddualba/my-xbox-scraper',
+    customized: true,
+    customizations:
+      'Run for a various amount of cycles. Automates login process to Costco, necessary to view stock availability.  Sends discord message via axios post when available.'
+  },
+  {
+    id: 2,
     stackType: 'REACT',
     name: 'Portfolio Site',
     fullstack: false,
     front: 'React',
     back: 'None',
     db: 'None',
-    addlPackages: 'react-bootstrap, react-router-dom, font-awesome',
+    addlPackages: 'react-bootstrap, react-router-dom, react-icons',
     cssFramework: 'React Bootstrap 1.4',
     projectType: 'Personal',
     desc:
@@ -18,6 +38,46 @@ export const myProjects = [
     customized: true,
     customizations:
       'Created from scratch. All functional components with hooks. React-router for component routing. '
+  },
+  {
+    id: 16,
+    stackType: 'React / CSS Grid / SASS',
+    name: 'Nexter Fictional Site',
+    fullstack: false,
+    front: 'react',
+    back: 'None',
+    db: 'None',
+    addlPackages: 'react, node-sass, gh-pages',
+    cssFramework: 'Custom CSS, CSS Grid, Sass',
+    projectType: 'Course/Custom',
+    desc:
+      'Sass / CSS Grid course project converted to a react functional component site',
+    deployedTo: 'Github Pages',
+    appUrl: 'https://ddualba.github.io/advcss-nexter-react/',
+    repoUrl: 'https://github.com/ddualba/advcss-nexter-react',
+    customized: true,
+    customizations:
+      'converted static html/css site to react functional components with sass'
+  },
+  {
+    id: 17,
+    stackType: 'Adv. CSS with SASS',
+    name: 'Trillo Fictional Site',
+    fullstack: false,
+    front: 'HTML5',
+    back: 'None',
+    db: 'None',
+    addlPackages: 'node-sass, concat, postcss, npm-run-all',
+    cssFramework: 'Custom CSS with Sass',
+    projectType: 'Course with customizations',
+    desc:
+      'Advanced CSS and Sass Course project. Functional practice coding and compiling sass while working with media queries, responsive design, BEM, 7-1 Sass Architecture.',
+    deployedTo: 'Github Pages',
+    appUrl: 'https://ddualba.github.io/advcss-trillo/',
+    repoUrl: 'https://github.com/ddualba/advcss-trillo',
+    customized: true,
+    customizations:
+      'Expanded npm build process, installed gh-pages and deployed'
   },
   {
     id: 18,

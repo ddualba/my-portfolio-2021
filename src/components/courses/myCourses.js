@@ -95,6 +95,20 @@ export const camps = [
   },
   {
     id: 8,
+    name: 'Coding Interview Bootcamp',
+    instructor: 'Stephen Grider',
+    courseUrl:
+      'https://www.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure/',
+    courseThumbUrl:
+      'https://img-b.udemycdn.com/course/240x135/1409142_1879_8.jpg',
+    courseThumbnail: 'tn-coding-interview.jpg',
+    desc:
+      'Ace your next Javascript coding interview by mastering data structures and algorithms.',
+    completed: true,
+    compDate: '3/01/2021'
+  },
+  {
+    id: 9,
     name: 'Advanced CSS and Sass',
     instructor: 'Jonas Schmedtmann',
     courseUrl: 'https://www.udemy.com/course/advanced-css-and-sass/',
@@ -103,12 +117,12 @@ export const camps = [
     courseThumbnail: 'tn-adv-css-sass.jpg',
     desc:
       'The most advanced and modern CSS course on the internet: master flexbox, CSS Grid, responsive design, and so much more.  All css is written in Sass and compiled with node-sass.',
-    completed: false,
-    compDate: '2/2/2021'
+    completed: true,
+    compDate: '3/2/2021'
   },
 
   {
-    id: 9,
+    id: 10,
     name: 'MERN Full Stack Guide',
     instructor: 'Maximilian Schwarzmüller',
     courseUrl:
