@@ -14,7 +14,7 @@ export const myProjects = [
       'Node terminal app that searches several websites for stock availability, terminal notification of availability  ',
     deployedTo: 'not deployed',
     appUrl: '',
-    repoUrl: 'https://github.com/ddualba/my-xbox-scraper',
+    repoUrl: 'https://github.com/ddualba/xstock-scraper',
     customized: true,
     customizations:
       'Run for a various amount of cycles. Automates login process to Costco, necessary to view stock availability.  Sends discord message via axios post when available.'
