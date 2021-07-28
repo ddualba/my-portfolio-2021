@@ -7,10 +7,15 @@ const Story = () => {
     <div className='story'>
       <figure className='story__shape'>
         <img
-          src={`${process.env.PUBLIC_URL}/assets/images/headshot-2020.jpg`}
+          src='https://i.ibb.co/C1Gnjfw/headshot-2020.jpg'
           alt='headshot'
           className='story__img'
         />
+        {/* <img
+          src={`${process.env.PUBLIC_URL}/assets/images/headshot-2020.jpg`}
+          alt='headshot'
+          className='story__img'
+        /> */}
         <figcaption className='story__caption'>Dar Dualba</figcaption>
       </figure>
       <div className='story__text'>
