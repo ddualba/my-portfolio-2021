@@ -113,12 +113,6 @@ const ProjectItem = ({
               <FaGithub /> Repository
             </span>
           </Card.Link>
-
-          {/* <Card.Footer className='mt-3'>
-            <small className='text-muted'>
-              <em>Some data</em>
-            </small>
-          </Card.Footer> */}
         </Card.Body>
       </Card>
     </Col>

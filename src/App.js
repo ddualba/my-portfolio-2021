@@ -1,5 +1,8 @@
 import React, { Fragment } from 'react';
-import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+
+// HashRouter was necessary when hosted on github, but can now use BrowserRouter
+// import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
@@ -20,15 +23,6 @@ const App = () => {
           <Route component={Routes} />
         </Switch>
         <Footer />
-
-        {/* <Container style={{ paddingTop: '60px' }}>
-          <Switch>
-            <Route exact path='/education' component={CourseList} />
-            <Route exact path='/'>
-              <Home />
-            </Route>
-          </Switch>
-        </Container> */}
       </Fragment>
     </Router>
   );

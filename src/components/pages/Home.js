@@ -35,8 +35,8 @@ const Home = () => {
           </h1>
           <p>
             I'm pursuing my passion for building data driven solutions but now
-            focused on doing so with javascript, react and the other components
-            of the MERN stack.
+            focused on doing so with javascript, react, material-ui and the
+            other components of the MERN stack.
           </p>
           <div className='btn-box'>
             <Link to='/projects' className='btn btn-white btn-animated'>

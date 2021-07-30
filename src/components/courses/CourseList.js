@@ -3,7 +3,6 @@ import CourseItem from './CourseItem';
 import CardDeck from 'react-bootstrap/CardDeck';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
 import { camps } from './myCourses';
 
 const CourseList = () => {
@@ -18,7 +17,6 @@ const CourseList = () => {
             // <Col xs={12} md={6}>
             <CourseItem
               key={camp.id}
-              id={camp.id}
               name={camp.name}
               instructor={camp.instructor}
               courseUrl={camp.courseUrl}

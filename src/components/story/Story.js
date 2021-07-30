@@ -35,8 +35,8 @@ const Story = () => {
           pieces of the MERN fullstack to be able to develop data driven web
           applications. This site has a collection of the courses and projects I
           have completed in my endeavor. I am looking forward to joining a team
-          to work collaboratively in building new web applications as well has
-          helping to learn and learning from my team.
+          to work collaboratively in building new web applications as well as
+          helping to learn and learning from the team.
         </p>
         <p>
           When I am not busy working or studying I enjoy outside fitness

@@ -10,7 +10,7 @@ export const myProjects = [
     addlPackages: 'axios, material-ui/data-grid',
     cssFramework: 'material-ui',
     projectType: 'Personal',
-    desc: 'Retrieve current pricing data from coin market cap API  ',
+    desc: 'Utilize user input to retrieve current pricing data from coin market cap API.  Display results in a material-ui data grid.',
     deployedTo: 'Heroku',
     appUrl: 'https://mui-crypto-quote.herokuapp.com/',
     repoUrl: 'https://github.com/ddualba/crypto-quote',
