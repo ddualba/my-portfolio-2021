@@ -1,5 +1,18 @@
 export const camps = [
   {
+    id: 8,
+    name: 'Typescript - Complete Dev Guide',
+    instructor: 'Stephen Grider',
+    courseUrl:
+      'https://www.udemy.com/course/typescript-the-complete-developers-guide/',
+    courseThumbUrl:
+      'https://img-c.udemycdn.com/course/240x135/2337318_abfd_4.jpg',
+    courseThumbnail: 'tn-typescript-complete-guide.jpg',
+    desc: 'Master Typescript by learning popular design patterns and building complex projects. Including React and Express.',
+    completed: true,
+    compDate: '9/02/2021'
+  },
+  {
     id: 9,
     name: 'Modern Javascript Bootcamp (2021)',
     instructor: 'Colt Steele/Stephen Grider',
