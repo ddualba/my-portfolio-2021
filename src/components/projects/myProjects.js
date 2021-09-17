@@ -50,7 +50,8 @@ export const myProjects = [
     projectType: 'Personal',
     desc: 'Repsonsive React Portfolio site built with bootstrap for navbar, cards, and modals.  ',
     deployedTo: 'Github Pages',
-    appUrl: 'https://ddualba.github.io/my-portfolio-2021',
+    // appUrl: 'https://ddualba.github.io/my-portfolio-2021',
+    appUrl: 'https://www.muidev.com',
     repoUrl: 'https://github.com/ddualba/my-portfolio-2021',
     customized: true,
     customizations:
